@@ -1,4 +1,3 @@
-# Manga-Read-Aloud
 # Manga Read-Aloud
 
 ## Overview
