@@ -1,0 +1,11 @@
+{
+  "name": "manga-read-aloud",
+  "version": "1.0.0",
+  "description": "Edge extension for reading manga aloud",
+  "scripts": {
+    "generate-icons": "node generate_icons.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.0"
+  }
+} 

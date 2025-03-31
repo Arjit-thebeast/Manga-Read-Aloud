@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
     <title>Manga Read Aloud</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Manga Read Aloud</h2>
-    <button id="capture">Capture & Read</button>
-    <p id="output"></p>
-    <script src="popup.js"></script>
+    <div class="container">
+        <h2>Manga Read Aloud</h2>
+        <div class="button-group">
+            <button id="capture" class="primary-button">Capture & Read</button>
+            <button id="readAloud" class="secondary-button" disabled>Read Aloud</button>
+        </div>
+        <div class="output-container">
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="popup.js" type="module"></script>
 </body>
 </html>
